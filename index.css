@@ -1,0 +1,32 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    direction: rtl;
+}
+body{
+    background-color: black;
+    direction: rtl;
+}
+h1{
+    position: relative;
+    font-size: 5vw;
+    font-weight: bold;
+    -webkit-text-stroke: 0.3vw white;
+    text-transform: uppercase;
+    direction: ltr;
+}
+.h1::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    color: white;
+    -webkit-text-stroke: 0vw #145feb;
+    border-right: 2px solid white;
+    overflow: hidden;
+}
