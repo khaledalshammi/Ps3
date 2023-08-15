@@ -5,6 +5,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     direction: rtl;
+    overflow-x: hidden;
 }
 body{
     background-color: black;
