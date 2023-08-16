@@ -15,8 +15,9 @@ h1{
     position: relative;
     font-size: 10vw;
     font-weight: bold;
-    -webkit-text-stroke: 0.5vw rgb(133, 0, 0);
+    -webkit-text-stroke: 0.8vw rgb(133, 0, 0);
     text-transform: uppercase;
+    letter-spacing: 3px;
     direction: ltr;
 }
 .h1::before{
