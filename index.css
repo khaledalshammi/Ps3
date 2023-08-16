@@ -13,9 +13,9 @@ body{
 }
 h1{
     position: relative;
-    font-size: 8vw;
+    font-size: 7vw;
     font-weight: bold;
-    -webkit-text-stroke: 0.5vw rgb(133, 0, 0);
+    -webkit-text-stroke: 0.3vw white;
     text-transform: uppercase;
     direction: ltr;
 }
